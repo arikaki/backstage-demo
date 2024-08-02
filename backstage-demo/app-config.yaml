@@ -64,9 +64,12 @@ techdocs:
 
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
+  environment: development
   providers:
-    # See https://backstage.io/docs/auth/guest/provider
-    guest: {}
+    github:
+      development:
+        clientId: Ov23livVHk87a9ahROE8
+        clientSecret: f3c4a4f7ab7695133fd51ffa0a646b9ec9d2677c
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
